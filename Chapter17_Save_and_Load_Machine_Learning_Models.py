@@ -54,7 +54,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 import joblib
 
-
 # load data
 filename = 'pima-indians-diabetes.data.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
