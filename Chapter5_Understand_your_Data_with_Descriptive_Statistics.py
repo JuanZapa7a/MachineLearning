@@ -24,6 +24,7 @@
 # %%
 # View first 20 rows
 import pandas as pd
+
 filename = "pima-indians-diabetes.data.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)
@@ -44,6 +45,7 @@ print(peek)
 #%%
 # Dimensions of your data
 import pandas as pd
+
 filename = "pima-indians-diabetes.data.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)
