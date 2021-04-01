@@ -55,7 +55,6 @@
 # %%
 # Load CSV Using Python Standard Library
 import csv
-
 import numpy as np
 
 filename = 'pima-indians-diabetes.data.csv'
@@ -73,6 +72,7 @@ print(data.shape)
 # %%
 # # Load CSV using NumPy
 import numpy as np
+
 filename = 'pima-indians-diabetes.data.csv'
 raw_data = open(filename) # raw_data = open(filename, 'rt') read and text
 data = np.loadtxt(raw_data, delimiter=",")
