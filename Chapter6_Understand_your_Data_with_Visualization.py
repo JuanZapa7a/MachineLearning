@@ -29,6 +29,7 @@
 # Univariate Histograms
 import matplotlib.pyplot as plt
 import pandas as pd
+
 filename = 'pima-indians-diabetes.data.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)
@@ -45,6 +46,7 @@ plt.show()
 # Univariate Density Plots
 import matplotlib.pyplot as plt
 import pandas as pd
+
 filename = 'pima-indians-diabetes.data.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)
@@ -64,11 +66,11 @@ plt.show()
 # Box and Whisker Plots
 import matplotlib.pyplot as plt
 import pandas as pd
+
 filename = 'pima-indians-diabetes.data.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)
-dataframe.plot(kind='box', subplots=True, layout=(3,3), sharex=False,
-             sharey=False)
+dataframe.plot(kind='box', subplots=True, layout=(3,3), sharex=False, sharey=False)
 plt.show()
 
 # We can see that the spread of attributes is quite different. Some like age,
@@ -97,6 +99,7 @@ plt.show()
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+
 filename = 'pima-indians-diabetes.data.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)
@@ -165,6 +168,7 @@ plt.show()
 # Scatterplot Matrix
 import matplotlib.pyplot as plt
 import pandas as pd
+
 filename = 'pima-indians-diabetes.data.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)

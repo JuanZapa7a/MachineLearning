@@ -100,6 +100,7 @@ print(dataset.shape)
 # %%
 # # Load CSV using Pandas
 import pandas as pd
+
 filename = 'pima-indians-diabetes.data.csv'
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)

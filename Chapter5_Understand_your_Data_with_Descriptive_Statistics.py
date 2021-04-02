@@ -85,6 +85,7 @@ print(types)
 # %%
 # # Statistical Summary
 import pandas as pd
+
 filename = "pima-indians-diabetes.data.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)
@@ -103,6 +104,7 @@ print(description)
 # %%
 # Class Distribution
 import pandas as pd
+
 filename = "pima-indians-diabetes.data.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)
@@ -132,6 +134,7 @@ print(class_counts)
 # %%
 # Pairwise Pearson correlations
 import pandas as pd
+
 filename = "pima-indians-diabetes.data.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 dataframe = pd.read_csv(filename, names=names)
@@ -153,6 +156,7 @@ print(correlations)
 # %%
 # Skew for each attribute
 import pandas as pd
+
 filename = "pima-indians-diabetes.data.csv"
 names = ['preg', 'plas', 'pres', 'skin', 'test', 'mass', 'pedi', 'age', 'class']
 data = pd.read_csv(filename, names=names)
@@ -172,3 +176,4 @@ print(skew)
 # relate, for what numbers mean, and ideas for techniques to try later. The
 # things you write down now while the data is fresh will be very valuable later
 # when you are trying to think up new things to try.
+# %%
